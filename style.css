@@ -1,0 +1,55 @@
+body {
+  font-family: Overpass;
+  background-color: #f9ebc88d;
+  color: #644536;
+  text-align: center;
+  padding: 25px;
+}
+
+h1, h2, h3 {
+  font-family: Chivo;
+  color: #0C0A3E;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: #BA6E6E;
+  padding: 10px;
+  margin-block: 30px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  background-color: #A36060;
+}
+
+div {
+  background-color: white;
+  padding:50px;
+  width:500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid 5px;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  div {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  div {
+    width: 300px;
+  }
+}
