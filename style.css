@@ -1,39 +1,51 @@
-body {
-  font-family: Overpass;
-  background-color: #f9ebc88d;
-  color: #644536;
+body{
+  font-family: Space Grotesk;
+  background-color:#F4BF96 ;
+  color: #163020 ;
+  padding: 4px ;
   text-align: center;
-  padding: 25px;
 }
 
 h1, h2, h3 {
-  font-family: Chivo;
-  color: #0C0A3E;
+  font-family: Space Mono;
+  color: #CE5A67;
 }
 
-a {
+li{
+  display: inline;
+}
+
+ul{
+  padding: 0;
+}
+
+a{
   text-decoration: none;
-  color: white;
-  background-color: #BA6E6E;
-  padding: 10px;
-  margin-block: 30px;
-  border-radius: 5px;
+  color: #7D0A0A;
+  font-size: 18px;
+  font-weight: bold;
   transition: 0.3s ease;
 }
 
 a:hover {
-  background-color: #A36060;
+  color: #CD8D7A;
 }
 
-div {
-  background-color: white;
-  padding:50px;
-  width:500px;
-  margin: 25px auto;
-  border-radius: 5px;
-  border: 1px solid 5px;
-  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
+
+.card {
+  background-color: #F9FBE7;
+  padding: 20px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 15px;
+  border: 1px solid #EAEAEA;
+}
+
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
